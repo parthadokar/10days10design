@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right,#953cd3,#523a91,#653cd3);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+.box {
+    background: #4e3591;
+    margin-top: 10rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav img {
+    height: 8vh;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+    margin-top: 3rem;
+    margin-left: 0.3rem;
+    background-color: white;
+}
+
+nav p {
+    margin: 1rem;
+    margin-top: 3rem;
+}
+
+.main {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main input {
+    width: 30%;
+    padding: 0.8rem;
+    background-color: #452d83;
+    margin-bottom: 1rem;
+    border: 2px solid palevioletred;
+}
+.main a {
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+}
+
+.main hr {
+    width: 110vh;
+}
+
+#login {
+    width: 30%;
+    padding: 0.8rem;
+    background-color: #1fbf30;
+    font-size: 20px;
+}
+
+#account {
+    width: 30%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    background-color: #d9ca11;
+    font-size: 20px;
+}
+
+.main a {
+    color: palevioletred;
+}
+
+.main a:hover {
+    color: wheat;
+}
+.main button:hover {
+    color: wheat;
+}
+::-webkit-input-placeholder {
+    color: peachpuff;
+    font-size: 18px;
+  }
