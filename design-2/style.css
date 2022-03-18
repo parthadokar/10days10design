@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Fredoka', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: 6%;
+}
+
+#nft-name {
+    padding: 0.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#nft-content {
+    padding: 0.2rem;
+    color: hsl(215, 51%, 70%);
+}
+
+.line {
+    display: flex;
+    padding: 0.5rem;
+}
+#price {
+    color: hsl(215, 51%, 70%);
+    flex-direction: row;
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    margin-left: 26rem;
+}
+
+#line {
+    border: 1px solid hsl(215, 32%, 27%);
+    margin-bottom: 1rem;
+}
+
+.creator {
+    display: flex;
+}
+
+#creator {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: hsl(215, 51%, 70%);
+}
+
+#white {
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution { font-size: 16px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
