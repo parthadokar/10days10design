@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#8EC5FC,#E0C3FC);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar */
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-1,.nav-2,.nav-3{
+    display: flex;
+    align-items: center;
+}
+
+.nav-1 i {
+    font-size: 30px;
+}
+.nav-1 h1{
+    margin-left: 1rem;
+    font-size: 45px;
+}
+
+.nav-2 {
+    width: 60%;
+    justify-content: space-evenly;
+}
+
+.nav-2 {
+    font-size: 12px;
+}
+
+.nav-3 button {
+    font-size: 18px;
+    border: none;
+    background: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 6.5vw;
+    height: 5vh;
+}
+
+.highlight:hover {
+    background-color: white;
+    border-radius: 50%;
+}
+
+/* Mid */
+
+.mid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.mid-1,.mid-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.mid-1 h1 {
+    font-size: 60px;
+}
+
+.mid-1 p {
+    font-size: 25px;
+}
+
+.mid-1 button {
+    width: 100px;
+    height: 50px;
+    background: palevioletred;
+    border: 0;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.mid-2 {
+    align-items: center;
+}
+
+.mid-2 img{
+    object-fit: contain;
+    width: 45vw;
+    height: 50vh;
+}
+
+.mid-2 p {
+    font-size: 20px;
+}
