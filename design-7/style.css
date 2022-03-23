@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    background: black;
+    color: white;
+    padding: 1rem;
+}
+
+.focus {
+    font-family: inherit;
+    width: 12vw;
+    height: 4.5vh;
+    background: #fcdb03;
+}
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.navbar-1 h1 {
+    font-family: 'Smokum', cursive;
+    color: #fcdb03;
+}
+
+.navbar-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+/* Content  */
+
+
+.content {
+    display: flex;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.content-1 img {
+    width: 25vw;
+    height: 25vh;
+    object-fit: contain;
+}
+
+.content-1 .img-1 {
+    width: 23vw;
+    transform: rotateZ(-15deg);
+}
+
+.content-1 .img-2 {
+    transform: rotateZ(5deg);
+}
+
+.content-1 .img-3 {
+    transform: rotateZ(10deg);
+}
+
+.content-1 .img-4 {
+    transform: rotateZ(10deg);
+    height: 23vh;
+}
+
+.content-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer i {
+    font-size: 40px;
+}
