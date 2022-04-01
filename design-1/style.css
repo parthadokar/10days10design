@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(to right,#953cd3,#523a91,#653cd3);
+    background: linear-gradient(to right,#953cd3,#523a91,#653cd3) no-repeat fixed;
     font-family: 'Fredoka', sans-serif;
     font-size: 20px;
 }
@@ -59,15 +59,12 @@ nav p {
     margin-bottom: 1.25rem;
 }
 
-.main hr {
-    width: 110vh;
-}
-
 #login {
     width: 30%;
     padding: 0.8rem;
     background-color: #1fbf30;
     font-size: 20px;
+    font-family: inherit;
 }
 
 #account {
@@ -76,6 +73,7 @@ nav p {
     margin-bottom: 1rem;
     background-color: #d9ca11;
     font-size: 20px;
+    font-family: inherit;
 }
 
 .main a {
@@ -85,10 +83,71 @@ nav p {
 .main a:hover {
     color: wheat;
 }
+
 .main button:hover {
     color: wheat;
 }
-::-webkit-input-placeholder {
+
+input[type="text"]::placeholder {
     color: peachpuff;
     font-size: 18px;
-  }
+    text-align: center;
+}
+
+@media (max-width:576px) and (min-width:300px) {
+    body {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 150px;
+    }
+
+    #login , #account{
+        font-size: 0.85rem;
+        width: 150px;
+    }
+}
+
+@media (max-width:768px) and (min-width: 576px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 170px;
+    }
+
+    #login , #account{
+        font-size: 0.85rem;
+        width: 170px;
+    }
+}
+
+@media (max-width:1200px) and (min-width:768px) {
+    
+    body {
+        font-size: 0.8rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
+    input[type="text"] {
+        width: 200px;
+    }
+
+    #login , #account{
+        font-size: 0.85rem;
+        width: 190px;
+    }
+}
