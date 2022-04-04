@@ -92,6 +92,7 @@ i {
 .content-2 h2 {
     font-size: 30px;
 }
+
 .sub-content-1 {
     display: flex;
     align-items: center;
@@ -174,4 +175,16 @@ i {
     color: white;
     border-radius: 10px;
     font-size: 20px;
+}
+
+@media (max-width:576px) and (min-width:300px) {
+  
+}
+
+@media (max-width:768px) and (min-width: 576px) {
+
+}
+
+@media (max-width:1200px) and (min-width:768px) {
+    
 }

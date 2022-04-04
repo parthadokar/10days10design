@@ -87,3 +87,15 @@
 .box button {
     border-radius: 30px;
 }
+
+@media (max-width:576px) and (min-width:300px) {
+
+}
+
+@media (max-width:768px) and (min-width: 576px) {
+
+}
+
+@media (max-width:1200px) and (min-width:768px) {
+    
+}
